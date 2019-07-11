@@ -1,6 +1,7 @@
 import React from 'react';
 import {
 	BrowserRouter,
+	Redirect,
 	Route,
 	Switch
 } from 'react-router-dom';
@@ -17,6 +18,7 @@ const App = () => (
 		<div className="container">
 		 <ErrorBoundary>
 				<Switch>
+					<Route exact path= "/" render={ () => <Redirect to={'/search'} /> } />
 					<Route exact path="/search" component={Container} />
 					<Route path="/search/:searchText" component={Container} />
 					<Route path="/Wave" render={ () => { return <Container searchText={'Wave'} /> } } />
