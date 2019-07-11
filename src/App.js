@@ -18,11 +18,11 @@ const App = () => (
 
 		<div className="container">
 		 <ErrorBoundary>
-				<Route component={MainNav} />
+				{/* <Route component={MainNav} /> */}
 				{/* Path indicates the URL to match & component specifies which React component to render when the URL matches the route path. */}
+				<Route path= "/" render={ () => <Redirect to={'/search'} /> } />
 
 				<Switch>
-					<Route exact path= "/" render={ () => <Redirect to={'/search'} /> } />
 					 {/* you pass it a function that returns a component. One of the main reasons to use the render prop over the component prop is when you need to pass props to the component you're rendering. Da in React we pass data to components via attributes called props.  Props are how components talk to each other. Props passed to a component can be used to render dynamic content. */}
 
 					<Route exact path="/search" component={Container} />

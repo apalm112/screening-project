@@ -6,6 +6,7 @@ const MainNav = (props) => {
 	// The to="" prop controls what displays in the URL.
 	return (
 		<header>
+			<h1>Flickr Screening Project</h1>
 			<nav className="main-nav">
 				<ul>
 					<li><NavLink to="/Wave">Wave</NavLink></li>

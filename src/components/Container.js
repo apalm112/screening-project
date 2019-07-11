@@ -3,6 +3,7 @@ import { Route } from 'react-router-dom';
 
 // import flickrAPI from '../myConfig';
 import Loading from './exceeds/Loading';
+import MainNav from './MainNav';
 import NotFound from './exceeds/NotFound';
 import SearchForm from './SearchForm';
 import Photo from './Photo';
