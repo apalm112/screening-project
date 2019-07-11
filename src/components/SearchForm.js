@@ -19,7 +19,6 @@ export default class SearchForm extends Component {
 					// When input is submitted this method gets called.
 					onSubmit={this.handleSubmit} >
 					<input
-						type="search"
 						name="search"
 						// ref is used to access the value of the input fields or the DOM element.  When used on an HTML element, the ref attribute takes a callback function that receives the underlying DOM element as its argument, in this case the input.
 						ref={(input) => this.query = input}
