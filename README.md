@@ -11,8 +11,8 @@ $ git clone git@github.com:apalm112/screening-project.git
 $ npm install
 ```
 
-#### Add your Flickr API key to the `src/components/config.js` file.
-`const flickrAPI = '<Flickr API key>';`
+#### Add your Flickr API key to the `.env` file.
+`REACT_APP_API_KEY=<Flickr API key>;`
 
 * Run the app from the command line with:
 ```
