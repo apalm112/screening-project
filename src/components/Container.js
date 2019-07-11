@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 
-// import flickrAPI from '../myConfig';
 import Loading from './exceeds/Loading';
 import NotFound from './exceeds/NotFound';
 import SearchForm from './SearchForm';
