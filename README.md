@@ -1,6 +1,7 @@
 # Screening Project
 
-This project was bootstrapped with Create-React-App.  Built the React components, added to the supplied CSS and set up react-router-4 for the routing.  Fetches data from the Flickr API.
+This project was bootstrapped with Create-React-App.  Built the React components, added to the supplied CSS and set up react-router-4 for the routing.  Fetches data from the Flickr API. Is deployed live at  https://screening-project.herokuapp.com
+
 
 ## Installation
 Clone the GitHub repository & use `npm` to install the dependencies.
