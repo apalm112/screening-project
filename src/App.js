@@ -1,7 +1,6 @@
 import React from 'react';
 import {
 	BrowserRouter,
-	Redirect,
 	Route,
 	Switch
 } from 'react-router-dom';
@@ -17,9 +16,6 @@ const App = () => (
 
 		<div className="container">
 		 <ErrorBoundary>
-				{/* Path indicates the URL to match & component specifies which React component to render when the URL matches the route path. */}
-				<Route path= "/" render={ () => <Redirect to={'/search'} /> } />
-
 				<Switch>
 					<Route exact path="/search" component={Container} />
 					<Route path="/search/:searchText" component={Container} />
