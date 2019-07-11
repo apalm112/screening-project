@@ -4,15 +4,15 @@ import NotFound from './exceeds/NotFound';
 import Photo from './Photo';
 
 const PhotoContainer = (props) => {
-	let pherters = props.flickrPhotos;
+	let photos = props.flickrPhotos;
 
 	return (
 		<div className="photo-container">
 			<h2>{props.searchText}</h2>
 			<ul>
 				{
-					pherters.length > 0
-						? pherters.map((photo) =>
+					photos.length > 0
+						? photos.map((photo) =>
 							<Photo
 								farm={photo.farm}
 								server={photo.server}

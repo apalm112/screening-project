@@ -1,7 +1,6 @@
 {
-  "name": "gallery_app",
-  "version": "0.1.0",
-  "private": true,
+  "name": "screening-project",
+  "version": "1.0.0",
   "dependencies": {
     "axios": ">=0.18.1",
     "express": "^4.16.4",
